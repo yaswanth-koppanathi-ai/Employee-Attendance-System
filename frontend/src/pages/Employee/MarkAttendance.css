@@ -1,0 +1,78 @@
+.attendance-card {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.attendance-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.attendance-header h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.attendance-header p {
+  color: #666;
+  font-size: 16px;
+}
+
+.attendance-status {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.status-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.status-item:last-child {
+  border-bottom: none;
+}
+
+.status-label {
+  font-weight: 500;
+  color: #666;
+}
+
+.status-value {
+  font-weight: 600;
+  color: #333;
+}
+
+.status-value.checked {
+  color: #28a745;
+}
+
+.status-value.not-checked {
+  color: #dc3545;
+}
+
+.attendance-actions {
+  text-align: center;
+}
+
+.btn-large {
+  padding: 15px 40px;
+  font-size: 18px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.completed-message {
+  text-align: center;
+  padding: 20px;
+}
+
+.completed-message .success {
+  font-size: 18px;
+  font-weight: 600;
+}
+

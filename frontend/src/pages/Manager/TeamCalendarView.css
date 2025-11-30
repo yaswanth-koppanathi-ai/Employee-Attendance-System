@@ -1,0 +1,74 @@
+.calendar-controls {
+  margin-bottom: 20px;
+}
+
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.react-calendar {
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.calendar-day-stats {
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.stat-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.stat-dot.present {
+  background-color: #28a745;
+}
+
+.stat-dot.absent {
+  background-color: #dc3545;
+}
+
+.calendar-legend {
+  display: flex;
+  gap: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.legend-dot.present {
+  background-color: #28a745;
+}
+
+.legend-dot.absent {
+  background-color: #dc3545;
+}
+
+.selected-date-attendance {
+  margin-top: 30px;
+}
+
+.selected-date-attendance h3 {
+  margin-bottom: 20px;
+}
+

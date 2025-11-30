@@ -1,0 +1,22 @@
+{
+  "name": "employee-attendance-system",
+  "version": "1.0.0",
+  "description": "Employee Attendance Tracking System",
+  "main": "server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "install-all": "npm install",
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install",
+    "postinstall": "npm run install-backend && npm run install-frontend"
+  },
+  "keywords": ["attendance", "employee", "tracking"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
