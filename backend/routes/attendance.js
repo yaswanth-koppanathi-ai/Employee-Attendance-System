@@ -15,7 +15,6 @@ const getDayBounds = (date) => {
   end.setHours(23, 59, 59, 999);
   return { start, end };
 };
-
 // @route   POST /api/attendance/checkin
 // @desc    Check in for today
 // @access  Private (Employee)
